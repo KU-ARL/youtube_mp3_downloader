@@ -1,4 +1,6 @@
-_pycache_/
 __pycache__/
+*.pyc
 venv/
+.venv/
+.env
 output_audio/
