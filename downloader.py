@@ -17,6 +17,8 @@ def download_mp3_with_progress(url: str, hook_fn=None):
         }],
         'noplaylist': True,
         'quiet': True,
+        'js_runtimes': {'node': {}},
+        'extractor_args': {'youtube': {'player_client': ['mweb']}},
         'progress_hooks': [hook_fn] if hook_fn else [],
         'outtmpl_na_placeholder': '_',  # 특수문자 대체
     }

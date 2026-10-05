@@ -34,4 +34,4 @@ async def start_download():
 
 ui.button("Download MP3 🎶", color='primary', on_click=start_download)
 
-ui.run(title="YouTube MP3 추출기", reload=False)
+ui.run(title="YouTube MP3 추출기", reload=False, show=False)
